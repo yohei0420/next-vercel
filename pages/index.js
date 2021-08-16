@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -13,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ようこそ <a href="https://nextjs.org">青森へ!</a>
+          ようこそ <Link href="/posts/first"><a>青森へ!</a></Link>
         </h1>
 
         <p className={styles.description}>
@@ -23,13 +24,13 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>祭り紹介 &rarr;</h2>
+            <p>青森県内の祭りをご紹介します。</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>歴史 &rarr;</h2>
+            <p>お祭りの歴史を学んでいきましょう！</p>
           </a>
 
           <a

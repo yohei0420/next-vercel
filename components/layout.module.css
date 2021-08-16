@@ -1,0 +1,29 @@
+.container {
+    max-width: 36rem;
+    padding: 0 1rem;
+   margin: 3rem auto 6rem;
+   margin-left: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px; 
+    background-color: aqua;
+  }
+
+.container h2 {
+  font-size: 30px;
+}
+
+.container p {
+  font-size: 20px;
+  
+}
+
+ .title {
+    size: 30px;
+    text-decoration: bold;
+    text-align: left;
+ }
+
+ .image {
+   position:relative;
+ }
